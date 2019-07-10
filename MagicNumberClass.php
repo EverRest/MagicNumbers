@@ -46,7 +46,7 @@ final class MagicNumberClass
     {
         $str = (string) $num;
 
-        while (strlen($str) < 6) {
+        while (strlen($str) < self::STR_LENGTH) {
             $str = '0' . $str;
         }
 
